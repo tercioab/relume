@@ -7,9 +7,9 @@ const Group: NextPage = () => {
 	}, []);
 
 	return (
-		<div className='w-full  relative h-[4457px] text-left text-13xl text-blue3 font-roboto'>
-			<div className='absolute  top-[1336px] left-[70px] w-[1300px] h-[580.3px] text-gray font-paragrafo'>
-				<div className='absolute  top-[12px] left-[0px] text-blue3 inline-block w-[530px]'>
+		<div className='w-full  relative h-[4457px] text-left text-13xl text-blue3 font-roboto' >
+			<div className='absolute  top-[1336px] left-[70px] w-[1300px] h-[580.3px] text-gray   font-paragrafo'>
+				<div className='absolute  top-[12px] left-[0px] text-blue3 inline-block w-[530px] '>
 					Descontos especiais
 				</div>
 				<div className=' absolute top-[88px] left-[0px] flex flex-row items-start justify-start text-xs font-roboto'>
@@ -326,29 +326,7 @@ const Group: NextPage = () => {
 						</div>
 					</div>
 				</div>
-				<div className='absolute top-[0px] left-[776px] flex flex-row items-start justify-start gap-[12px] text-sm'>
-					<div className='bg-minigray flex flex-row items-center justify-start py-4 px-6 text-blue3'>
-						<div className='relative leading-[20px] font-medium'>Equipamentos</div>
-					</div>
-					<div className='bg-minigray flex flex-row items-center justify-start py-4 px-6'>
-						<div className='relative leading-[20px] font-medium'>Materiais</div>
-					</div>
-					<div className='bg-minigray flex flex-row items-center justify-start py-4 px-6'>
-						<div className='relative leading-[20px] font-medium'>Filtros</div>
-					</div>
-					<div className='bg-minigray flex flex-row items-center justify-start py-4 px-6 gap-[16px]'>
-						<div className='w-[71px] relative leading-[20px] font-medium hidden'>
-							Categorias
-						</div>
-						<img className='w-5 relative h-5' alt='' src='/icbaselinechevronleft.svg' />
-					</div>
-					<div className='bg-minigray flex flex-row items-center justify-start py-4 px-6 gap-[16px]'>
-						<div className='w-[71px] relative leading-[20px] font-medium hidden'>
-							Categorias
-						</div>
-						<img className='w-5 relative h-5' alt='' src='/mdichevronright.svg' />
-					</div>
-				</div>
+				
 			</div>
 			<div className='absolute top-[800px] left-[70px] font-paragrafo inline-block w-[530px]'>
 				Destaques de junho
@@ -372,10 +350,10 @@ const Group: NextPage = () => {
 					</div>
 				</div>
 			</div>
-			<div className='absolute top-[4038px] left-[0px] w-[1440px] h-[419px] text-sm text-gray'>
-				<div className='absolute top-[0px] left-[0px] w-[1440px] h-[419px] text-xs'>
+			<div className='absolute top-[4038px]  left-[0px] w-[1440px] h-[419px] text-sm  text-gray'>
+				<div className='absolute  top-[0px] left-[0px] w-[1440px] h-[419px] text-xs'>
 					<div className='absolute top-[0px] left-[0px] bg-white w-[1440px] h-[419px] border-t-[1px] ' />
-					<div className='absolute top-[300px] left-[70px] w-[593px] h-[78px]'>
+					<div className='absolute top-[300px]  left-[70px] w-[593px] h-[78px]'>
 						<div className='absolute top-[0px] left-[0px] inline-block w-[593px] h-[78px] [text-shadow:1px_0_0_#eee,_0_1px_0_#eee,_-1px_0_0_#eee,_0_-1px_0_#eee]'>
 							<p className='[margin-block-start:0] [margin-block-end:5px] text-sm font-medium'>
 								© Porto eCommerce. 2020. All Rights Reserved
@@ -393,7 +371,7 @@ const Group: NextPage = () => {
 						</div>
 					</div>
 				</div>
-				<div className='absolute top-[290px] left-[729px] flex flex-row items-center justify-start gap-[24px]'>
+				<div className='absolute  top-[290px] left-[729px] flex flex-row items-center justify-start gap-[24px]'>
 					<img
 						className='w-[58.3px] relative h-[60px] object-cover'
 						alt=''
@@ -1364,11 +1342,11 @@ const Group: NextPage = () => {
 			<div className='absolute top-[845px] left-[380px] bg-gray2 w-[310px] h-[230px]' />
 			<div className='absolute top-[1075px] left-[380px] bg-minigray w-[310px] h-[230px]' />
 			<div className='absolute top-[209px] left-[0px] w-[1440px] h-[373px]'>
-      <img
-  className='absolute w-[1440px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'
-  alt=''
-  src='/banner@2x.png'
-/>
+				<img
+					className='absolute w-[1440px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'
+					alt=''
+					src='/banner@2x.png'
+				/>
 				<div className='absolute top-[363px] left-[677px] w-[86px] h-2.5'>
 					<div className='absolute top-[0px] left-[0px] bg-gray2 w-2.5 h-2.5' />
 					<div className='absolute top-[0px] left-[19px] bg-blue3 w-2.5 h-2.5' />
@@ -1898,7 +1876,7 @@ const Group: NextPage = () => {
 						<div className='relative font-semibold'>UMIDIFICADORES</div>
 					</div>
 					<div className='flex-1  bg-blue3 flex flex-row items-center justify-center p-4 gap-[10px]'>
-          <img
+						<img
 							className='w-[18px] relative h-[18px] '
 							alt=''
 							src='/healthiconslungs.svg'

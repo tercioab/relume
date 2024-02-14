@@ -4,10 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 body {
+ 
   @apply leading-[normal] m-0;
+  background-color: #F8F8F8
 }
 *,
+
 ::before,
 ::after {
+  
   border-width: 0;
 }
