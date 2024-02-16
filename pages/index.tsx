@@ -350,9 +350,9 @@ const Group: NextPage = () => {
 					</div>
 				</div>
 			</div>
-			<div className='absolute top-[4038px]  left-[0px] w-[1440px] h-[419px] text-sm  text-gray'>
-				<div className='absolute  top-[0px] left-[0px] w-[1440px] h-[419px] text-xs'>
-					<div className='absolute top-[0px] left-[0px] bg-white w-[1440px] h-[419px] border-t-[1px] ' />
+			<div className='absolute top-[4038px]  left-[0px] w-full h-[419px] text-sm  text-gray'>
+				<div className='absolute  top-[0px] left-[0px] w-full h-[419px] text-xs'>
+					<div className='absolute top-[0px] left-[0px] bg-white w-full h-[419px] border-t-[1px] ' />
 					<div className='absolute top-[300px]  left-[70px] w-[593px] h-[78px]'>
 						<div className='absolute top-[0px] left-[0px] inline-block w-[593px] h-[78px] [text-shadow:1px_0_0_#eee,_0_1px_0_#eee,_-1px_0_0_#eee,_0_-1px_0_#eee]'>
 							<p className='[margin-block-start:0] [margin-block-end:5px] text-sm font-medium'>
@@ -1341,9 +1341,9 @@ const Group: NextPage = () => {
 			<div className='absolute top-[845px] left-[998px] bg-blue2 w-[370px] h-[460px]' />
 			<div className='absolute top-[845px] left-[380px] bg-gray2 w-[310px] h-[230px]' />
 			<div className='absolute top-[1075px] left-[380px] bg-minigray w-[310px] h-[230px]' />
-			<div className='absolute top-[209px] left-[0px] w-[1440px] h-[373px]'>
+			<div className='absolute top-[209px] left-[0px] w-full h-[373px]'>
 				<img
-					className='absolute w-[1440px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'
+					className='absolute w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'
 					alt=''
 					src='/banner@2x.png'
 				/>
